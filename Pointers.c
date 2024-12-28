@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
 
@@ -27,7 +28,17 @@ int main(){
         printf("%d ", p[i]);
     }
     
+    //Crear una array en la memoria dinamica en el heap
+     printf("\nArray en heap: \n");
 
+    p=(int *)malloc(5*sizeof(int));
+
+    p[0]=10; p[1]=8; p[2]=15; p[3]=4; p[4]=1;
+
+    for (int i = 0; i < 5; i++)
+    {
+        printf("%d ", p[i]);
+    }
 
     return 0;
 }
