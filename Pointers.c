@@ -43,16 +43,16 @@ int main(){
     free(p);
 
     //Ver la cantidad que ocupan los tipos de datos
-    printf("\n\nTamano de int: %zu bytes\n", sizeof(int));
-    printf("Tamano de char: %zu bytes\n", sizeof(char));
-    printf("Tamano de float: %zu bytes\n", sizeof(float));
-    printf("Tamano de double: %zu bytes\n", sizeof(double));
-    printf("Tamano de long: %zu bytes\n", sizeof(long));
-    printf("Tamano de short: %zu bytes\n", sizeof(short));
-    printf("Tamano de long long: %zu bytes\n", sizeof(long long));
-    printf("Tamano de unsigned int: %zu bytes\n", sizeof(unsigned int));
-    printf("Tamano de unsigned char: %zu bytes\n", sizeof(unsigned char));
-    printf("Tamano de long double: %zu bytes\n", sizeof(long double));
+    printf("\n\nTamano de int: %d bytes\n", sizeof(int));
+    printf("Tamano de char: %d bytes\n", sizeof(char));
+    printf("Tamano de float: %d bytes\n", sizeof(float));
+    printf("Tamano de double: %d bytes\n", sizeof(double));
+    printf("Tamano de long: %d bytes\n", sizeof(long));
+    printf("Tamano de short: %d bytes\n", sizeof(short));
+    printf("Tamano de long long: %d bytes\n", sizeof(long long));
+    printf("Tamano de unsigned int: %d bytes\n", sizeof(unsigned int));
+    printf("Tamano de unsigned char: %d bytes\n", sizeof(unsigned char));
+    printf("Tamano de long double: %d bytes\n", sizeof(long double));
 
     return 0;
 }
